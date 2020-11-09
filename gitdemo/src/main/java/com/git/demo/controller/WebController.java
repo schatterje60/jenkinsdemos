@@ -12,4 +12,10 @@ public class WebController
 	{
 		return "hello !!";
 	}
+	
+	@RequestMapping("/hi")
+	public String sayHi()
+	{
+		return "hi !!"
+	}
 }
